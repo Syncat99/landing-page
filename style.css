@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    border: 0px solid black;
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+header {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 15% 30px 15%;
+    align-items: center;
+    background-color: #1F2937;
+}
+.logo {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.main-description {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    max-width: 50%;
+}
+
+button {
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 0;
+    width: 100px;
+    height: 40px;
+    border: 0px;
+    background-color:cornflowerblue;
+}
+.main-description > h1 {
+    font-size: 50px;
+}
+.main-description > p {
+    font-size: 20px;
+}
+.random-infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 40px 30px 40px;
+    background-color: white;
+    gap: 25px
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+    flex-wrap: wrap;
+}
+.card {
+    gap: 10px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    padding: 60px 25% 60px 25%;
+    background-color: darkgray;
+    gap: 25px;
+}
+.quote h2 {
+    align-self: flex-end;
+    font-size: 30px;
+}
+.join-us {
+    padding: 60px 15% 60px 15%;
+    text-align: center;
+}
+li {
+    font-size: 20px;
+}
+.modal {
+    display: flex;
+    border-radius: 10px;
+    background-color: #3882F6;
+    padding: 30px 30px;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.modal .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+footer {
+    background-color: #1F2937;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+.modal button {
+    background-color: inherit;
+    border: 1px solid white;
+}
