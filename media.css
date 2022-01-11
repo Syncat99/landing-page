@@ -4,10 +4,7 @@
     }
     header {
         padding: 15px 5% 30px 5%;
-    }
-    
-    
-   
+    }           
 }
 @media all and (max-width: 1350px) {
     .main {
@@ -33,5 +30,4 @@
     .modal {
         flex-direction: column;
     }
-    g
 }
