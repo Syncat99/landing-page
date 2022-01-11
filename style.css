@@ -122,6 +122,7 @@ li {
     align-items: center;
     justify-content: space-between;
     color: white;
+    gap: 20px;
 }
 .modal .text {
     display: flex;

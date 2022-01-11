@@ -29,3 +29,9 @@
         padding: 0 10%;
     }
 }
+@media all and (max-width: 930px) {
+    .modal {
+        flex-direction: column;
+    }
+    g
+}
